@@ -1,0 +1,21 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "my first discord javascript bot application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deployCommands": "node src/deploy-commands.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "VIPMarcel",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.7.0",
+    "@discordjs/rest": "^2.2.0",
+    "discord-api-types": "^0.37.67",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.2"
+  }
+}
